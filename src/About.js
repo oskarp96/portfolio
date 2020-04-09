@@ -8,7 +8,7 @@ class About extends Component {
     }
     render() {
         return (
-            <div className="padding">
+            <div>
                 <div>
                     <h2>About me</h2>
                     <hr />

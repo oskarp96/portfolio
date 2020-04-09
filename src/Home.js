@@ -8,7 +8,7 @@ class Home extends Component {
     }
     render() { 
         return ( 
-            <div className="padding">
+            <div>
                 <h2>Who am I?</h2>
                 <hr />
                 <p>My name is Oskar, and I'm a student currently studying my last semester of informatics at Örebro University.

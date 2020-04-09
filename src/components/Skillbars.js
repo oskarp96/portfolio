@@ -7,7 +7,7 @@ class Skillbars extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid padding">
+            <div className="container-fluid">
                     <div className="progress" style={{height: "20px"}}>
                         <div className="progress-bar" role="progressbar" style={{width: "75%", backgroundColor: "#222"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">C#</div>
                     </div>
