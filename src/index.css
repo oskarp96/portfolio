@@ -24,6 +24,10 @@ code {
   text-decoration: underline;
 }
 
+.padding {
+  padding-bottom: 2rem;
+}
+
 /*
 ####################################################
 M E D I A  Q U E R I E S
