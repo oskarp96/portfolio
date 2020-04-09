@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 export const NavigationBar = () => (
     <Navbar style={{backgroundColor: "#fff"}} expand="lg">
-        <Navbar.Brand href="/">Oskar Persson</Navbar.Brand>
+        <Navbar.Brand><Link style={{color: "#222"}} to="/">Oskar Persson</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

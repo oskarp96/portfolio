@@ -12,7 +12,7 @@ class Home extends Component {
                 <h2>Who am I?</h2>
                 <hr />
                 <p>My name is Oskar, and I'm a student currently studying my last semester of informatics at Örebro University.
-                    I'm passionate about everything that has to do with systems development, but particularly in programming. 
+                    I'm passionate about everything that have to do with systems development, but particularly in programming. 
                     Techniques I've gotten especially interested in are .NET (C#), JavaScript, React, HTML, CSS and SQL. Head over to
                     the <Link to="/about">about page</Link> if you wanna know more about me!
                 </p>
