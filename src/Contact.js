@@ -10,8 +10,16 @@ class Contact extends Component {
             <div>
                 <h2>Contact</h2>
                 <hr />
-                <p>Feel free to contact me at: oskar.persson1996@gmail.com.</p>
-                <p><a href="https://www.linkedin.com/in/perssonoskar/">My LinkedIn profile</a></p>
+                <address>
+                    <uli>
+                        <li>
+                        <a href="mailto:oskar.persson1996@gmail.com">Mail</a>
+                        </li>
+                        <li>
+                        <a href="https://www.linkedin.com/in/perssonoskar/">LinkedIn</a>
+                        </li>
+                    </uli>
+                </address>
             </div>
         );
     }

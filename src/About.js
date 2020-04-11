@@ -8,7 +8,7 @@ class About extends Component {
     }
     render() {
         return (
-            <div className="padding">
+            <div>
                 <div>
                     <h2>About me</h2>
                     <hr />
@@ -21,7 +21,8 @@ class About extends Component {
                         <li>Object-oriented programming with Java</li>
                         <li>Database management with SQL Server</li>
                         <li>Client-side programming with JavaScript, jQuery, HTML and CSS</li>
-                        <li>Web-systems in ASP.NET</li>
+                        <li>Web-systems with .NET</li>
+                        <li>Agile software development with Scrum and eXtreme Programming</li>
                         <li>Requirements engineering</li>
                         <li>Object-oriented analysis and design</li>
                         <li>Interaction design</li>
@@ -31,7 +32,7 @@ class About extends Component {
                 <div>
                     <h2>Projects</h2>
                     <hr />
-                    <p>You can find my projects over at <a href="https://github.com/oskii96?tab=repositories">my github.</a></p>
+                    <p>You can find my projects over at <a href="https://github.com/oskarp96?tab=repositories">my github.</a></p>
                 </div>
                 <div>
                     <h2>Skills</h2>
