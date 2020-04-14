@@ -8,7 +8,7 @@ const Styles = styled.div`
         background: url(${coding}) no-repeat fixed bottom;
         background-size: cover;
         color: #efefef;
-        height: 200px;
+        height: 400px;
         position: relative;
         z-index: -2;
     }
@@ -30,9 +30,9 @@ export const Jumbotron = () => (
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
-                <div class="jumbotron-caption">
-                    <h1 className="display-3 jumbotron-header">Welcome</h1>
-                    <p className="lead jumbotron-paragraph">Welcome to my portfolio website</p>
+                <div className="jumbotron-caption">
+                    <h1 className="display-3 jumbotron-header">Oskar Persson</h1>
+                    <p className="lead jumbotron-paragraph text-center">Information Systems student graduating in June 2020 with a passion for systems- and web-development.</p>
                 </div>
             </Container>
         </Jumbo>

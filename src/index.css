@@ -18,10 +18,20 @@ code {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  max-width: 75%;
+}
+
+.nav-link {
+  margin-left: 10px;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.navbar {
+  border-bottom: solid 1px;
 }
 
 .padding {
@@ -29,8 +39,25 @@ code {
 }
 
 .fa-envelope:hover,
-.fa-linkedin-in:hover {
+.fa-linkedin-in:hover, .fa-github:hover, .fa-link:hover {
   color: rgb(82, 83, 81) !important;
+  font-size: 250%;
+}
+
+.fa-envelope,
+.fa-linkedin-in, .fa-github {
+  margin: 5px;
+}
+
+#pic-oskar {
+  height: 275px;
+  width: 230px;
+  float: left;
+  margin-right: 15px;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 /*
@@ -51,15 +78,27 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
 }
 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Up to medium devices */
 @media (max-width: 768px) {
   .jumbotron-header {
-    font-size: 275%;
+    font-size: 250%;
+  }
+  .jumbotron-caption > p {
+    font-size: 90%;
+    text-align: left !important;
   }
   .jumbo {
-    height: 100px;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #pic-oskar {
+    height: 160px;
+    width: 142px;
   }
 }
 

@@ -7,7 +7,7 @@ class Skillbars extends Component {
   }
   render() {
     return (
-      <div className="container-fluid padding">
+      <div className="container-fluid padding" style={{maxWidth: "85%"}}>
         <div className="progress" style={{ height: "20px" }}>
           <div
             className="progress-bar"
@@ -17,7 +17,7 @@ class Skillbars extends Component {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>C#</b>
+            C#
           </div>
         </div>
         <br />
@@ -30,7 +30,7 @@ class Skillbars extends Component {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>JavaScript</b>
+            JavaScript
           </div>
         </div>
         <br />
@@ -43,7 +43,7 @@ class Skillbars extends Component {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>Java</b>
+            Java
           </div>
         </div>
         <br />
@@ -56,7 +56,7 @@ class Skillbars extends Component {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>SQL Server</b>
+            SQL Server
           </div>
         </div>
         <br />
@@ -64,12 +64,12 @@ class Skillbars extends Component {
           <div
             className="progress-bar"
             role="progressbar"
-            style={{ width: "40%", backgroundColor: "#222" }}
+            style={{ width: "45%", backgroundColor: "#222" }}
             aria-valuenow="40"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>React</b>
+            React
           </div>
         </div>
         <br />
@@ -77,12 +77,12 @@ class Skillbars extends Component {
           <div
             className="progress-bar"
             role="progressbar"
-            style={{ width: "80%", backgroundColor: "#222" }}
+            style={{ width: "75%", backgroundColor: "#222" }}
             aria-valuenow="80"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>HTML</b>
+            HTML
           </div>
         </div>
         <br />
@@ -95,7 +95,7 @@ class Skillbars extends Component {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <b>CSS</b>
+            CSS
           </div>
         </div>
         <br />

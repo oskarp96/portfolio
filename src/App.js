@@ -1,12 +1,10 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
-import Home from "./Home";
 import About from "./About";
-import Contact from "./Contact";
-import NoMatch from "./NoMatch";
+import Contact from "./components/Connect";
 import { Layout } from "./components/Layout";
-import { NavigationBar } from "./components/NavigationBar";
+import NavigationBar from "./components/NavigationBar";
 import { Jumbotron } from "./components/Jumbotron";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -14,12 +12,9 @@ function App() {
       <NavigationBar />
       <Jumbotron />
       <Layout>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route component={NoMatch} />
-        </Switch>
+        <About/>
+        <Skills />
+        <Contact />
       </Layout>
     </div>
   );
